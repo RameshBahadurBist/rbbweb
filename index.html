@@ -75,21 +75,14 @@
     <header class="bg-gradient-to-r from-blue-900 to-blue-700 text-white fixed top-0 w-full z-10 shadow-lg">
         <div class="container mx-auto px-2 py-4 flex items-center justify-between">
             <!-- Logo and Title Pushed Toward Left Corner -->
-            <div class="flex items-center space-x-2 pl-1">
-                <img src="./AIRLab_logo.jpg" alt="AIR Lab Logo" class="h-14 w-14 object-cover logo-shadow">
-                <h1 class="text-3xl font-extrabold tracking-tight">AIR Lab</h1>
-            </div>
+
             <!-- Navigation with All 14 Headings -->
             <nav class="hidden md:flex space-x-3 items-center ml-20">
-                <a href="#welcome" class="nav-link text-base font-medium">Welcome</a>
-                <a href="#pi" class="nav-link text-base font-medium">PI</a>
-                <a href="#team" class="nav-link text-base font-medium">Teams</a>
+                <a href="#about" class="nav-link text-base font-medium">About</a>
                 <a href="#publications" class="nav-link text-base font-medium">Publications</a>
                 <a href="#preprints" class="nav-link text-base font-medium">Preprints</a>
                 <a href="#proceedings" class="nav-link text-base font-medium">Proceedings</a>
                 <a href="#abstracts" class="nav-link text-base font-medium">Abstracts</a>
-                <a href="#projects" class="nav-link text-base font-medium">Projects</a>
-                <a href="#gallery" class="nav-link text-base font-medium">Gallery</a>
                 <a href="#news" class="nav-link text-base font-medium">News</a>
                 <a href="#acknowledgements" class="nav-link text-base font-medium">Acknowledgements</a>
                 <a href="#positions" class="nav-link text-base font-medium">Positions</a>
@@ -102,15 +95,11 @@
         </div>
         <!-- Mobile Navigation -->
         <div id="mobile-menu" class="hidden md:hidden bg-blue-800 px-6 py-4">
-            <a href="#welcome" class="block nav-link py-2 text-xs">Welcome</a>
-            <a href="#pi" class="block nav-link py-2 text-xs">PI</a>
-            <a href="#team" class="block nav-link py-2 text-xs">Team</a>
+            <a href="#about" class="block nav-link py-2 text-xs">About</a>
             <a href="#publications" class="block nav-link py-2 text-xs">Publications</a>
             <a href="#preprints" class="block nav-link py-2 text-xs">Preprints</a>
             <a href="#proceedings" class="block nav-link py-2 text-xs">Proceedings</a>
             <a href="#abstracts" class="block nav-link py-2 text-xs">Abstracts</a>
-            <a href="#projects" class="block nav-link py-2 text-xs">Projects</a>
-            <a href="#gallery" class="block nav-link py-2 text-xs">Gallery</a>
             <a href="#news" class="block nav-link py-2 text-xs">News</a>
             <a href="#acknowledgements" class="block nav-link py-2 text-xs">Acknowledgements</a>
             <a href="#positions" class="block nav-link py-2 text-xs">Positions</a>
@@ -121,53 +110,9 @@
     <!-- Main Content -->
     <main class="pt-24">
         <!-- Welcome Section with Video -->
-        <section id="welcome" class="py-12 bg-white">
-            <div class="container mx-auto px-6">
-                <div class="flex justify-center">
-                   <h2 class="text-3xl font-bold mb-6 inline-block border-b-4 border-blue-600 pb-2 text-center">Welcome to the AIR Lab</h2>
-                </div>
-                <video class="w-full h-96 object-cover mb-6 rounded-lg" controls autoplay muted loop>
-                    <source src="./Projects/Unmanned-Ground-Vehicle-SLAM2025.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <p class="text-lg mb-4"><strong>Department of Biological and Agricultural Engineering</strong></p>
-                <p class="text-lg mb-4"><strong>College of Agriculture and Life Sciences, North Carolina State University</strong></p>
-                <p class="mb-4">At the AIR Lab, we use the power of AI, robotics, and innovative technologies to drive innovation in precision livestock farming and sustainable agriculture. We combine machine learning, automation, sensing technologies, and data-driven solutions to improve animal health, welfare, food quality, and environmental outcomes.</p>
-                <!-- Two-Column Layout: Research Interests and What We Work On on Left, Image on Right -->
-                <div class="flex flex-col md:flex-row md:gap-6 items-center">
-                 <!-- Left Column: Research Interests and What We Work On -->
-                  <div class="md:w-1/2">             
-                        <h3 class="text-xl font-semibold mb-2">Our Research Interests:</h3>
-                        <ul class="list-disc pl-6 mb-4">
-                            <li>Artificial intelligence (AI) and predictive analytics</li>
-                            <li>Robotics, unmanned ground (UGV), and aerial (UAV) vehicle automation</li>
-                            <li>Computer vision, sensors, and IoT technologies</li>
-                            <li>Big data analysis and hyperspectral imaging</li>
-                            <li>Animal behavior, welfare, food safety, and sustainability</li>
-                            <li>Air quality, greenhouse gas emissions, and disease prevention</li>
-                        </ul>
-                        <h3 class="text-xl font-semibold mb-2">What We Work On:</h3>
-                        <ul class="list-disc pl-6">
-                            <li>Predicting and controlling livestock diseases like Avian Influenza</li>
-                            <li>Health monitoring for poultry, cattle, and swine</li>
-                            <li>Building affordable unmanned ground and aerial vehicles</li>
-                            <li>Mobile apps for real-time animal health and behavior monitoring</li>
-                            <li>Machine learning models for precision feeding, breeding, and embryo sexing</li>
-                            <li>New methods for rapid, non-destructive food quality testing</li>
-                        </ul>
-                  </div>
-                    <!-- Right Column: Image with Caption -->
-                    <div class="md:w-1/2 flex flex-col items-center mt-6 md:mt-0">
-                        <img src="./AIR-Lab-Research-Plans-2025-2030.png" alt="AIR Lab Research Goal" class="w-full max-w-sm mb-2">
-                        <p class="text-sm italic text-gray-600 text-center">Figure: AIR Lab Research Goal</p>
-                    </div>
-                </div>
-                <h3 class="mb-4 mt-6">We are excited to lead innovation at the intersection of livestock, technology, and sustainability. Thank you for visiting and welcome to the AIR Lab!</h3>
-            </div>
-        </section>
 
         <!-- Principal Investigator Section -->
-        <section id="pi" class="py-12 bg-gray-100">
+        <section id="About" class="py-12 bg-gray-100">
             <div class="container mx-auto px-6">
                  <div class="flex justify-center">
                     <h2 class="text-3xl font-bold mb-6 text-center inline-block border-b-4 border-blue-600 pb-2">Principal Investigator (PI)</h2>
@@ -176,14 +121,14 @@
                     <img src="./Ramesh-Bist-ProfilePics.jpg" alt="Dr. Ramesh Bahadur Bist" class="w-72 h-auto mb-4 md:mb-0 md:mr-6 shadow-lg">
                     <div>
                         <h3 class="text-2xl font-semibold">Ramesh Bahadur Bist, Ph.D.</h3>
-                        <p class="text-lg">Assistant Professor of Artificial Intelligence for Integrated Food and Animal Systems</p>
+                        <p class="text-lg">Incoming Assistant Professor of Artificial Intelligence for Integrated Food and Animal Systems</p>
                         <p class="text-lg">Department of Biological and Agricultural Engineering, College of Agriculture and Life Sciences</p>
                         <p>Email: <a href="mailto:rameshba.bist@gmail.com" class="text-blue-600 hover:underline">rameshba.bist@gmail.com</a></p>
                         <p>Office: <a href="mailto:000-00-0000" class="text-blue-600 hover:underline">000-00-0000</a></p>
-                        <p class="mt-4">Dr. Ramesh Bahadur Bist received his Ph.D. in Poultry Science from the University of Georgia in 2024 under the supervision of Dr. Lilong Chai. During his Ph.D. research, he worked extensively with AI tools and computer vision to detect, classify, and segment animal health, behavior, and welfare conditions in poultry. Additionally, he used a robotic dog to detect mortality in hens and locate floor eggs. </p>
-                        <p class="mt-4">After completing his Ph.D., Dr. Bist joined the University of Arkansas (UARK) in 2024 as a postdoctoral fellow, where he worked on computer vision and robotics research with Dr. Dongyi Wang. His work included developing an auto-labeling model and a text-prompt-based behavior detection model. He also applied various sensor technologies, such as hyperspectral imaging and thermal sensors to detect foreign materials in meat, woody breast condition, and spaghetti meat defects. In robotics, he contributed to building an unmanned ground vehicle capable of autonomous navigation inside poultry processing plants using simultaneous localization and mapping (SLAM). </p>
-                        <p class="mt-4">At NC State, Dr. Bist leads a strong research and educational program focused on machine learning, robotics, automation, sensing technologies, and data-driven solutions for livestock farming. His goals include developing methods to predict and control livestock diseases, monitor animal health, build affordable unmanned vehicles, create mobile apps for real-time health tracking, apply machine learning to precision feeding and breeding, and design rapid, non-destructive food quality tests. </p>
-                        <p class="mt-4">He has published extensively in journals such as Computers and Electronics in Agriculture, Artificial Intelligence in Agriculture, Engineering Applications of Artificial Intelligence, Frontiers in Robotics and AI, Poultry Science, and Journal of Environmental Management. Dr. Bist currently serves as a guest editor for two special issues: “Application of Intelligent Systems in Poultry Farming” for Applied Sciences (MDPI) and “Precision Farming Technologies for Monitoring Livestock and Poultry” for AgriEngineering (MDPI). He is also an active reviewer for journals including Nature Scientific Reports, Artificial Intelligence in Agriculture, Computers and Electronics in Agriculture, Journal of Environmental Management, Applied Computing and Informatics, Poultry Science, Sensors (MDPI), ASABE Applied Engineering in Agriculture, and more.</a>.</p>
+                        <p class="mt-4"> I am an incoming Assistant Professor for Integrated Food and Animal System at the North Carolina State University's Department of Biological and Agricultural Engineering. I received my Ph.D. in Poultry Science from the University of Georgia in 2024 under the supervision of Dr. Lilong Chai. During my Ph.D. research, I worked extensively with AI tools and computer vision to detect, classify, and segment animal health, behavior, and welfare conditions in poultry. Additionally, we used a robotic dog to detect mortality in hens and locate floor eggs. </p>
+                        <p class="mt-4">After completing Ph.D., I joined the University of Arkansas (UARK) in 2024 as a postdoctoral fellow, where I worked on computer vision and robotics research with Dr. Dongyi Wang. My work included developing an auto-labeling model and a text-prompt-based behavior detection model. I also applied various sensor technologies, such as hyperspectral imaging and thermal sensors to detect foreign materials in meat, woody breast condition, and spaghetti meat defects. In robotics, I contributed to building an unmanned ground vehicle capable of autonomous navigation inside poultry processing plants using simultaneous localization and mapping (SLAM). </p>
+                        <p class="mt-4">At NC State, I will leads a strong research and educational program focused on machine learning, robotics, automation, sensing technologies, and data-driven solutions for livestock farming. My goals include developing methods to predict and control livestock diseases, monitor animal health, build affordable unmanned vehicles, create mobile apps for real-time health tracking, apply machine learning to precision feeding and breeding, and design rapid, non-destructive food quality tests. </p>
+                        <p class="mt-4">I have published extensively in journals such as Computers and Electronics in Agriculture, Artificial Intelligence in Agriculture, Engineering Applications of Artificial Intelligence, Frontiers in Robotics and AI, Poultry Science, and Journal of Environmental Management. I also currently serves as a guest editor for two special issues: “Application of Intelligent Systems in Poultry Farming” for Applied Sciences (MDPI) and “Precision Farming Technologies for Monitoring Livestock and Poultry” for AgriEngineering (MDPI). I am also an active reviewer for journals including Nature Scientific Reports, Artificial Intelligence in Agriculture, Computers and Electronics in Agriculture, Journal of Environmental Management, Applied Computing and Informatics, Poultry Science, Sensors (MDPI), ASABE Applied Engineering in Agriculture, and more.</a>.</p>
                     </div>
                 </div>
             </div>
